@@ -1,0 +1,77 @@
+
+body{
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'figtree';
+    src: url(./assets/fonts/static/Figtree-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: 'figtree';
+    src: url(./assets/fonts/static/Figtree-Medium.ttf);
+}
+
+.main-content{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(47, 88%, 63%);
+}
+
+.content{
+    flex: 1;
+    max-width: 350px; 
+    border: 2px solid hsl(0, 0%, 42%);
+    box-shadow: 7px 7px hsl(0, 0%, 7%);
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: figtree;
+    font-weight: 500;
+}
+
+
+.content-img{
+    height: fit-content;
+    border-radius: 8px;
+    width: 93%;
+}
+
+.span-tag{
+    background-color: hsl(47, 88%, 63%);
+}
+
+h1:hover{
+    color: hsl(47, 88%, 63%);
+}
+
+.main > p{
+    font-size: 16px;
+}
+
+.last{
+    display: flex;
+    align-items: center;
+}
+
+.last img{
+    height: 30px;
+}
+
+.paragraph{
+    margin-left: 8px;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+@media (max-width:1440) {
+    .main-content{
+        flex-direction: column;
+        height: 100%;
+    }
+
+}
