@@ -23,7 +23,7 @@ body{
 
 .content{
     flex: 1;
-    max-width: 300px; 
+    max-width: 330px; 
     border: 2px solid hsl(0, 0%, 42%);
     box-shadow: 7px 7px hsl(0, 0%, 7%);
     border-radius: 10px;
